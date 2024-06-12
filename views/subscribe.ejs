@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="/subscribe.css">
+    <script defer src="subscribe.js"></script>
+   
+</head>
+<body>
+    <a href="/Home"><button class="close-button"> Close </button></a>
+    <div class="subscribe">
+    
+    
+    <form id="form" action="/subscribe" method="POST">
+        <h1>Subscribe to our newspaper</h1>
+    <h3>Join now and get premium features!<a href="/learnmore"> Learn more!</a></h3>
+
+    <div class="input-control field">
+            <label for="username">Enter username:</label>
+            <input id="username" name="username" type="text" >
+            <div class="error"></div>
+        </div>
+    <div class="input-control">
+        <p>Select your plan:</p>
+        <input id="monthly" name="plan" type="radio" value="Monthly subscription">
+        <label for="monthly">Monthly subscription ($10/month)</label>
+        <br>
+        <input id="hannual" name="plan" type="radio" value="hannual">
+        <label for="hannual">6-month subscription ($50 every 6 months)</label>
+        <br>
+        <input id="annual" name="plan" type="radio" value="annual">
+        <label for="annual">Annual subscription ($95/year)</label>
+        <br>
+        <div class="error"></div>
+    </div>
+    
+    <div class="input-control">
+        <p>Payment option:</p>
+        <input id="debit" name="pay1" type="radio" value="debit">
+        <label for="debit">Debit Card</label>
+        <input id="credit" name="pay1" type="radio" value="credit">
+        <label for="credit">Credit card</label>
+        
+        <div class="error"></div>
+    </div>
+
+    <div class="field input-control">
+        <label for="card">Enter card number:</label>
+        <input id="card" name="card" type="text">
+        <div class="error"></div>
+    </div>
+        
+    <button type="submit" class="submit-btn">Submit</button>
+    <a href="/Home"><button type="button">Skip</button></a>
+        
+    </form>
+</div>
+   
+</body>
+</html>
+

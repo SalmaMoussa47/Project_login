@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Insiders</title>
+    <link rel="stylesheet" href="database.css"> 
+    <script defer src="database.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+    <a href="/Home"><button class="close-button"> Close </button></a>
+     <!-- Section for "Technology" -->
+     <div class="section">
+        <div class="section-heading">
+            <h2 class="heading-title">Technology</h2>
+        </div>
+        <div class="section-slider" id="section1">
+            <div class="prev-button" id="prev-button">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="article-blocks">
+                <!-- Article cards will be rendered here -->
+            </div>
+            <div class="next-button" id="next-button">
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for "Music" -->
+    <div class="section">
+        <div class="section-heading">
+            <h2 class="heading-title">Music</h2>
+        </div>
+        <div class="section-slider" id="section2">
+            <div class="prev-button">
+                <i class="fa fa-angle-left" id="left"></i>
+            </div>
+            <div class="article-blocks">
+                <!-- Article cards will be rendered here -->
+            </div>
+            <div class="next-button">
+                <i class="fa fa-angle-right" id="right"></i>
+            </div>
+        </div>
+    </div>
+
+        <!-- Section for "Sports" -->
+        <div class="section">
+            <div class="section-heading">
+                <h2 class="heading-title">Sports</h2>
+            </div>
+            <div class="section-slider" id="section3">
+                <div class="prev-button">
+                    <i class="fa fa-angle-left" id="left" aria-hidden="false"></i>
+                </div>
+                <div class="article-blocks">
+                    <!-- Article cards will be rendered here -->
+                </div>
+                <div class="next-button" id="next-button" id="right" aria-hidden="false">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Section for "Poltitics" -->
+        <div class="section">
+            <div class="section-heading">
+                <h2 class="heading-title">Politics </h2>
+            </div>
+            <div class="section-slider" id="section4">
+                <div class="prev-button">
+                    <i class="fa fa-angle-left" id="left" aria-hidden="false"></i>
+                </div>
+                <div class="article-blocks">
+                    <!-- Article cards will be rendered here -->
+                </div>
+                <div class="next-button" id="next-button" id="right" aria-hidden="false">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-heading"><h2 class="heading-title">Read Later:</h2></div>
+            <!-- Table to display the "Read Later" list -->
+            <table id="readLaterTable">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>URL</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Articles will be dynamically added here -->
+                </tbody>
+            </table>
+    
+    
+        </div>
+
+
+</body>
+</html>

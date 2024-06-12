@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profilepage2.css">
+    <h1>Your Insider Profile!</h1>
+</head>
+<body>
+    <div class="profilecontainer">
+        <div class="details">
+            <div class="pic-name">
+                <img src="/user.png" id="profilepic">
+                <div class="rule-container">
+                    <hr class="red-rule">
+                </div>
+                <h3>Michael Scott</h3>
+                <h3>profile type:(Reader)</h3>
+                <div class="bi3">
+                    <h4 id="bioo"></h4>
+                </div>
+                
+            </div>
+            <div class="extra">
+                <div class="infohistory">
+            <div class="accountdetails">
+                <label for="username">Username:</label>
+                <textarea readonly id="username"></textarea>
+                <label for="password">Password:</label>
+                <textarea readonly id="password"> </textarea>
+
+            </div>
+        
+            <div class="history">
+                <label for="likes" id="likes1">Likes:</label>
+                <textarea readonly id="likes">
+                    
+                </textarea>
+                <label for="articles1">articles read:</label>
+                <textarea readonly id="articlesr"> </textarea>
+            </div>
+        </div>
+        
+        <div class="bio">
+            <label for="biography" id="biolabel">You can enter your bio here!</label><br>
+            <input type="text" id="biography">
+            <button type="submit" id="mysub">Enter</button>
+        </div>
+        <div class="rec">
+            <label for="rec1">What would you like to read about right now?</label>
+            <button class="CategoryButton" data-category="music">Music</button>
+            <button class="CategoryButton" data-category="politics">Politics</button>
+            <button class="CategoryButton" data-category="tech">Technology</button>
+            <div id="articleLinkContainer" class="hidden">
+                <p>Article Link:</p>
+                <a id="categoryLink" href="#" target="_blank"><img id="categoryImage" src="" alt="Article Image"></a>
+            </div>
+            
+        </div>
+
+        </div>
+    </div>
+    <script src="profilepage2.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

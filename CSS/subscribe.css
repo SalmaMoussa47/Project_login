@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2ede8; 
+  font-family: 'Inter', sans-serif;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    width: 60%;
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase; 
+}
+h3{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #4E5965;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    margin-left: auto;
+    margin-top: 20px;
+    font-size: 15px;
+}
+form input{
+    
+    text-align: center;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+.field label{
+    display: flex;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.field input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1.5px solid #a5a6a8;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+.field input:hover{
+    border: 2px solid #a5a6a8;
+    transition: 0.5s;
+}
+
+
+input[type="button"]{
+    margin-left: auto;
+    width: 110px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: solid gray;
+}
+p{
+    text-align: left;
+    padding: 10px 0;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+button{
+    background-color: #f9303d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 10px; 
+  }
+  
+  button:hover {
+    background-color: black;
+    cursor:pointer;
+    transition: 0.5s;
+  }
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 13px;
+}
+

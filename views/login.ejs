@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    <title>Log In</title>
+    <link rel="stylesheet" href="/login.css">
+    <script defer src="login.js"></script>
+   
+</head>
+<body>
+    <a href="/Home"><button class="close-button"> Close </button></a>
+    <div class="container">
+    
+    <form id="form" action="/login" method="post">
+        <h1>Log In</h1>
+    <h3>Don't have an account? <a href="/signup">Sign up for free!</a></h3>
+    <div class="input-control">
+        <label for="username">Username:</label>
+        <input id="username" name="username" type="text">
+        <div class="error"></div>
+    </div>
+    <div class="input-control">
+        <label for="email">E-mail:</label>
+        <input id="email" name="email" type="text">
+        <div class="error"></div>
+    </div>
+    <div class="input-control">
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password">
+        <div class="error"></div>
+    </div>
+    <button type="submit" class="submit-btn">Log in</button>
+        
+    </form>
+</div>
+   
+</body>
+</html>

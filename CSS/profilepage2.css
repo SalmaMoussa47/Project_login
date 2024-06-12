@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EDE8;
+    font-family: Arial, sans-serif;
+}
+
+.profilecontainer {
+    margin: 0 auto;
+    padding: 20px;
+    width:100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-name{
+
+    background-color:#E5DBD7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:center;
+    position:relative;
+
+}
+
+.rule-container{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.red-rule{
+    width:80%;
+    border:none;
+    border-top:2px solid #f9303d;
+}
+
+.extra,
+.bio{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.rec {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #E5DBD7;
+    
+}
+
+
+
+.pic-name img {
+    margin: 6px;
+}
+
+.infohistory {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.infohistory > * {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color:#E5DBD7 ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #E5DBD7;
+}
+
+#mysub {
+    background-color: #f9303d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#mysub:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+textarea {
+    display: inline-block;
+    width: calc(100% - 110px);
+    vertical-align: top;
+    height: 0.5cm;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    width: 15cm;
+    border-color: #f9303d;
+    align-self:center;
+    
+}
+
+h3 {
+    color: black;
+    font-family: "Baskerville", Georgia, serif;
+}
+
+#categoryImage {
+    width: 10cm;
+    height: 10cm;
+}
+
+h1 {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.CategoryButton {
+    background-color: #f9303d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.CategoryButton:hover {
+    background-color: black;
+    cursor:pointer;
+}
+div{
+    width:100%;
+}
+.hidden{
+    display:none;
+}
+
+details,
+.pic-name,
+.extra,
+.bio,
+.rec {
+    width: 100%; }
